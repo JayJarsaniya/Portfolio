@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: #0a101e !important;
+
+}
+
+.st-section-heading{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.st-section-heading.st-style1 .st-section-heading-title {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fec544;
+  position: relative;
+  z-index: 10;
+  letter-spacing: 1px;
+}
+
+.st-section-heading.st-style1 .st-section-heading-subtitle {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 90px;
+  font-weight: 700;
+  color: #151b2980;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.st-section-heading.st-style1 .st-section-heading-title:after {
+  content: "";
+  position: absolute;
+  background-color: #fec544;
+  width: 70px;
+  height: 2px;
+  bottom: -16px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.st-section-heading.st-style1 .st-section-heading-title:before {
+  content: "";
+  position: absolute;
+  background-color: #3f4551;
+  width: 170px;
+  height: 2px;
+  bottom: -16px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@media screen and (max-width: 768px) {
+  .st-section-heading.st-style1 .st-section-heading-subtitle{
+    font-size: 40px;
+    margin-top: 85px;
+  }
+  .st-section-heading.st-style1 .st-section-heading-title{
+    font-size: 12px;
+  }
+  .st-section-heading.st-style1 .st-section-heading-title:before{
+    width: 85px;
+    bottom: -6px;
+    height: 1px;
+  }
+  .st-section-heading.st-style1 .st-section-heading-title:after{
+    width: 35px;
+    bottom: -6px;
+    height: 1px;
+  }
+}

@@ -1,0 +1,142 @@
+.home-main {
+    height: 100vh;
+    width: 100%;
+    background: url(https://devis-react.vercel.app/images/background/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.home-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.home-content .image {
+    width: 40%;
+}
+
+.home-content .image img {
+    width: 100%;
+}
+
+.home-content .text p {
+    color: #FFD700;
+    font-size: 30px;
+}
+
+.home-content .text h1 {
+    font-size: 100px;
+    color: #FDFEFF;
+}
+
+.home-content .text h4 {
+    font-size: 36px;
+    color: #a9adb8;
+    margin-top: 15px;
+}
+
+.home-content .icon {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: #101624;
+    padding: 15px;
+    border-radius: 20px;
+    transition: all 0.6s linear;
+}
+
+.home-content .icon i {
+    font-size: 20px;
+    color: #FDFEFF;
+}
+
+.home-content .icon p {
+    font-size: 15px;
+    color: #FDFEFF;
+}
+
+.home-content .icon a {
+    text-decoration: none;
+}
+
+.home-content .icon .sub-icon {
+    background-color: #0a101e;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s linear !important;
+}
+
+.home-content .icon .sub-icon p {
+    display: none;
+}
+
+.home-content .icon .sub-icon a {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.home-content .icon .sub-icon a:hover p {
+    display: block;
+    transition: all 0.5s linear !important;
+}
+
+@media (max-width: 900px) {
+    .home-content {
+        margin-top: 65px;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .home-content .text {
+        width: 100%;
+    }
+
+    .home-content .image {
+        width: 60%;
+    }
+
+    .home-content .text p {
+        font-size: 24px;
+    }
+
+    .home-content .text h1 {
+        font-size: 60px;
+    }
+
+    .home-content .text h4 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-main {
+        padding: 10px;
+    }
+
+    .home-content .text {
+        width: 100%;
+    }
+
+    .home-content .image {
+        width: 80%;
+    }
+
+    .home-content .text p {
+        font-size: 20px;
+    }
+
+    .home-content .text h1 {
+        font-size: 40px;
+    }
+
+    .home-content .text h4 {
+        font-size: 18px;
+    }
+}

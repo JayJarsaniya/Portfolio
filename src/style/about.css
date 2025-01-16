@@ -1,0 +1,127 @@
+.profile-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+    line-height: 30px;
+}
+.profile-card__image{
+    width: 40%;
+}
+.profile-card__content{
+    width: 60%;
+}
+.profile-card__image img {
+    width: 100%;
+    text-align: end;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.profile-card__content {
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+.profile-card__content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-card__content h2 {
+    color: #fec544;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+}
+
+.profile-card__content p {
+    font-size: 1rem;
+    color: #a9adb8;
+    margin-bottom: 1rem;
+}
+
+.profile-card__content ul {
+    text-align: justify;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-card__content ul li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #a9adb8;
+}
+
+.profile-card__content ul li span:first-child {
+    display: inline-block;
+    width: 108px;
+}
+.profile-card__content ul li span:last-child {
+   margin-right: 20px;
+}
+
+.profile-card__content ul li span {
+    font-weight: bold;
+    color: #a9adb8;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1150px){
+    .profile-card__image{
+        width: 100%;
+        text-align: center;
+    }
+    .profile-card__content{
+        width: 100%;
+    }
+    .profile-card__image img {
+        max-width: 500px;
+    }
+    .skill-heading{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-card__content {
+        margin: 20px 0 0 0;
+    }
+
+    .profile-card__image img {
+        max-width: 200px;
+    }
+    .profile-card__content h1{
+        font-size: 25px;
+    }
+    .profile-card__content ul li span:first-child {
+        display: inline-block;
+        width: 70px;
+    }
+    .profile-card {
+        margin-top: 20px;
+    }
+    .skill-sub-heading{
+        font-size: 18px !important;
+    }
+    .skill-sub-text{
+        font-size: 14px !important;
+    }
+    .skill-name{
+        font-size: 12px !important;
+    }
+}

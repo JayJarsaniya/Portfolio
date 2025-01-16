@@ -1,0 +1,106 @@
+.education-container {
+    margin-top: 50px;
+    color: #ffffff;
+    padding: 30px 20px;
+    margin-left: 150px;
+}
+
+.edu-titlt-main {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+
+.education-title {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 20px;
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.timeline-icon {
+    position: absolute;
+    left: -31px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #0a101e;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    z-index: 2;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-item:hover .timeline-icon {
+    transform: scale(1.1);
+    background-color: #f39c12;
+    box-shadow: 0 0 10px #f39c12;
+}
+
+.timeline-content {
+    margin-left: 50px;
+}
+
+.degree {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f39c12;
+}
+
+.year {
+    font-size: 14px;
+    margin: 5px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.university {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.description {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 768px) {
+    .timeline {
+        margin-left: 20px;
+    }
+
+    .timeline-content {
+        margin-left: 10px;
+    }
+
+    .degree {
+        font-size: 18px;
+    }
+
+    .year,
+    .university,
+    .description {
+        font-size: 12px;
+    }
+
+    .timeline-icon {
+        width: 15px;
+        height: 15px;
+        left: -29px;
+    }
+
+    .education-container {
+        margin-left: 0px;
+    }
+}

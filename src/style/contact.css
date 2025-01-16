@@ -1,0 +1,182 @@
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 0px 100px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.form-section,
+.info-section {
+    flex: 1 1 45%;
+    min-width: 300px;
+}
+
+.form-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: #101624;
+    border: 1px solid #232935;
+    padding: 12px 15px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.contact-form input:focus {
+    border-color: #f39c12;
+}
+
+.contact-form textarea:focus {
+    border-color: #f39c12;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #67748e;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #f39c12;
+    color: #0a0a0a;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #d4830b;
+}
+
+.info-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details div {
+    margin-bottom: 15px;
+}
+
+.contact-details span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-icon {
+    display: flex;
+}
+
+.contact-icon p {
+    margin: 0;
+}
+
+.contact-icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border: .5px solid #3f4551;
+    border-radius: 50%;
+}
+
+.contact-icon:hover i {
+    border: .5px solid #f39c12;
+    transition: all 0.5s linear;
+}
+
+
+.info-section .icon {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.info-section .icon i {
+    font-size: 20px;
+    color: #FDFEFF;
+}
+
+.info-section .icon p {
+    font-size: 15px;
+    color: #FDFEFF;
+}
+
+.info-section .icon a {
+    text-decoration: none;
+}
+
+.info-section .icon .sub-icon {
+    border: 1px solid #3f4551;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all 0.5s linear !important;
+}
+
+.info-section .icon .sub-icon p {
+    display: none;
+}
+
+.info-section .icon .sub-icon a {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.info-section .icon .sub-icon a:hover p {
+    display: block;
+    transition: all 0.5s linear !important;
+}
+
+.submit-msg{
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+
+    .info-section .icon {
+        gap: 5px;
+    }
+
+    .form-section,
+    .info-section {
+        flex: 1 1 100%;
+    }
+
+    .form-section,
+    .info-section {
+        min-width: 100px;
+    }
+}
