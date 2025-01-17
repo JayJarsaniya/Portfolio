@@ -8,21 +8,21 @@ const Resume = () => {
       year: "Running",
       university: "Red And White Multimedia Education",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.",
+        "Designing and developing dynamic, user-friendly web applications with expertise in front-end and back-end technologies.",
     },
     {
       degree: "Bachelor of Commerce",
       year: "2020 - 2023",
       university: "Saurashtra University",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.",
+        "Gained a strong foundation in business principles, financial management, and analytical skills.",
     },
     {
       degree: "HSC",
       year: "2019-2020",
       university: "Alpha Vidhya Sankul",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.",
+        "Developed key knowledge in commerce, including accounting, economics, and business studies.",
     },
   ];
   return (

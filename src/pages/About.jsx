@@ -23,7 +23,7 @@ const About = () => {
           <ul>
             <li><span>Birthday</span> <span>:</span> August 20, 2002</li>
             <li><span>Phone</span> <span>:</span> +91 9737529450</li>
-            <li><span>Email</span> <span>:</span> jayjarsaniya006.com</li>
+            <li><span>Email</span> <span>:</span> jayjarsaniya006@gmail.com</li>
             <li><span>From</span> <span>:</span> Junagadh, Gujrat - 362215</li>
             <li><span>Language</span> <span>:</span> English, Gujrati, Hindi</li>
             <li><span>Freelance</span> <span>:</span> Available</li>

@@ -23,7 +23,7 @@ const Projects = () => {
           </a>
         </div>
         <div className="project-sub">
-        <a href="https://amazon-two-tan.vercel.app/" target='_blank'>
+        <a href="https://amazon-woad-two.vercel.app/" target='_blank'>
             <img src={project2} alt="" />
             <div className="project-title">
               <button>View Details</button>
